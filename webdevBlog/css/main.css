@@ -178,7 +178,7 @@ section:not(.home) h2 {
 }
 
 section:not(.home) h2::after {
-  content:"";
+  content: "";
   display: block;
   width: 100px;
   height: 5px;
@@ -188,13 +188,13 @@ section:not(.home) h2::after {
 
 .team-container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 140px;
   flex-wrap: wrap;
 }
-.team-item  {
+.team-item {
   width: 250px;
-  color:#fff;
+  color: #fff;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -224,40 +224,74 @@ section:not(.home) h2::after {
   margin: 0 auto;
 }
 
-.services{
+.services {
   padding: 100px 0;
   margin: 0 auto;
   max-width: 1500px;
   background: #fff;
 }
 
-.services >p {
+.services > p {
   font-style: italic;
   font-size: 16px;
   max-width: 1200px;
   margin: 85px auto 100px;
-  color:#6c6c6c;
+  color: #6c6c6c;
   text-align: center;
   line-height: 24px;
 }
 
-.service-container{
+.service-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-direction: row;
   flex-wrap: wrap;
-} 
+}
 
 .service-item {
   width: 250px;
   margin-bottom: 60px;
-
 }
 
-.icon{
-  border:7px solid #fcac45;
+.service-item h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+.icon {
+  box-sizing: border-box;
+  border: 7px solid #fcac45;
   border-radius: 50%;
   width: 115px;
   height: 115px;
   margin: 0 auto;
-  
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.icon:hover {
+  color: red;
+}
+
+.clients {
+  padding: 100px 0;
+  background: #070707;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.clients h2 {
+  color: #fff;
+}
+.clients-container {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item {
+  padding: 100px 14px 200px 14px;
+
+  height: 30px;
 }
