@@ -231,7 +231,8 @@ section:not(.home) h2::after {
   background: #fff;
 }
 
-.services > p {
+.services > p,
+.work p {
   font-style: italic;
   font-size: 16px;
   max-width: 1200px;
@@ -273,7 +274,7 @@ section:not(.home) h2::after {
   padding: 20px 0 20px 0;
 }
 .icon:hover {
-  color: red;
+  color: #db9d16;
 }
 
 .clients {
@@ -292,6 +293,5 @@ section:not(.home) h2::after {
 
 .clients-item {
   padding: 100px 14px 200px 14px;
-
   height: 30px;
 }
