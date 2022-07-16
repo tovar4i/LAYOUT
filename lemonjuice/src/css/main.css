@@ -1,2 +1,173 @@
 @import url(../fonts/fonts.css);
 @import url(zeroStyle.css);
+
+/* header-------------------------- */
+.header {
+    height: 85px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__logo img {
+    width: 174px;
+    height: 57px;
+}
+
+.contacts {
+    display: flex;
+    align-content: center;
+}
+
+.contacts img {
+    margin-right: 8px;
+    width: 23px;
+    height: 23px;
+}
+
+.header__placeholder {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #333;
+    margin: 29px 0px 29px 117px;
+    /* width: 366px; */
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    margin: 29px 0px 29px 79px;
+    margin-left: 40px;
+}
+
+.phone__number {
+    color: #333;
+    font-size: 15px;
+}
+
+.header__mail {
+    display: flex;
+    align-items: center;
+    margin: 29px 30px 29px 67px;
+}
+
+.email {
+    font-size: 15px;
+    color: #333;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 26px 0;
+    float: left;
+}
+
+.menu__item {
+    float: left;
+    margin-right: 90px;
+}
+
+.menu__item a {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu__item a:hover {
+    color: #a6b03b;
+    text-decoration: underline;
+}
+
+.owners {
+    margin-top: 16px;
+    width: 170px;
+    height: 35px;
+    border: 1px solid #909090;
+    text-transform: uppercase;
+}
+
+.owners:hover {
+    color: #fff;
+    background: #a6b03b;
+}
+
+.eye {
+    width: 25px;
+    height: 25px;
+    margin-left: 31px;
+    padding: 0;
+    background: #fff;
+}
+
+.eye img {
+    vertical-align: sub;
+}
+
+.eye:hover {
+    background: #a6b03b;
+    fill: #a6b03b;
+}
+
+
+
+
+
+
+.promo {
+    min-height: 642px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url('../img/home_bg.jpg') center center/cover no-repeat;
+    position: relative;
+}
+
+.promo__title {
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-top: 170px;
+    
+
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.btn {}
+
+.tagline {}
+
+.tagline__text {}
+
+.about-us {}
+
+.about-us__label {}
+
+.about-us__title {}
+
+.benefits {}
+
+.benefits-item {}
+
+.benefits__logo {}
+
+.benefits__description {}
+
+.benefits__text {}
