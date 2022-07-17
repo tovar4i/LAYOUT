@@ -101,7 +101,8 @@ nav {
     text-transform: uppercase;
 }
 
-.owners:hover {
+.owners:hover,
+.btn:hover {
     color: #fff;
     background: #a6b03b;
 }
@@ -124,24 +125,21 @@ nav {
 }
 
 
-
-
-
-
 .promo {
     min-height: 642px;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url('../img/home_bg.jpg') center center/cover no-repeat;
     position: relative;
 }
-
-.promo__title {
+.promo__container{
     position: absolute;
-    color: #fff;
-    text-transform: capitalize;
     margin: 0 auto;
     margin-top: 170px;
-    
+    width:100%;
+}
 
+.promo__title {
+    color: #fff;
+    text-transform: capitalize;
     font-family: 'Playfair Display';
     font-weight: 700;
     font-size: 60px;
@@ -150,7 +148,20 @@ nav {
     letter-spacing: 0.01em;
 }
 
-.btn {}
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 62px;
+    width: 270px;
+    height: 50px;
+    background: #FEE600;
+    color: #4f4f4f;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
 
 .tagline {}
 
