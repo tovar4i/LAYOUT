@@ -194,11 +194,32 @@ nav {
 }
 
 
-.about-us {}
+.about-us {
+}
 
-.about-us__label {}
+.about-us__label {
+    color: #495F1D;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
 
-.about-us__title {}
+.about-us__title {
+    margin: 0 auto;
+    width: 805px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    padding: 36px 0 53px 0 ;
+}
 
 .benefits {}
 
