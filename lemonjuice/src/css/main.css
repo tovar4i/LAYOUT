@@ -160,12 +160,39 @@ nav {
     font-weight: 700;
     font-size: 15px;
     text-transform: uppercase;
-
 }
 
-.tagline {}
+.tagline {
+    width: 100%;
+}
 
-.tagline__text {}
+.tagline__container{
+    margin: 0 auto;
+    height:200px;    
+    background: #faf9f5;
+}
+
+.tagline__text {
+    width: 800px;
+    color: #495F1D;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.tagline p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0 40px 0 ;
+}
+
 
 .about-us {}
 
